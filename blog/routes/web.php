@@ -22,4 +22,11 @@ $router->put('/details', 'DetailsController@DetailsUpdate');
 // $router->get('/builder','BuilderController@AllRows');
 // $router->get('/builder','BuilderController@Rows');
 // $router->get('/builder','BuilderController@SingleData');
-$router->get('/builder','BuilderController@ListColumn');
+// $router->get('/builder','BuilderController@ListColumn');
+$router->get('/builder','BuilderController@Aggregate');
+
+$router->post('/builder','BuilderController@Insert');
+
+$router->delete('/builder','BuilderController@Delete');
+
+$router->put('/builder','BuilderController@Update');
