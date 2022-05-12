@@ -19,4 +19,7 @@ $router->delete('/details', 'DetailsController@DetailsDelete');
 $router->put('/details', 'DetailsController@DetailsUpdate');
 
 
+// $router->get('/builder','BuilderController@AllRows');
+// $router->get('/builder','BuilderController@Rows');
+// $router->get('/builder','BuilderController@SingleData');
 $router->get('/builder','BuilderController@ListColumn');
